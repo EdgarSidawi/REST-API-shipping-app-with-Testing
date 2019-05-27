@@ -1,0 +1,26 @@
+{
+  "name": "shipping-app-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 20000",
+    "start": "nodemon app.js"
+  },
+  "author": "edgar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.18.11",
+    "sinon": "^7.3.2"
+  }
+}
